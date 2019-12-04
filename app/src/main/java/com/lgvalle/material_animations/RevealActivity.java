@@ -2,11 +2,7 @@ package com.lgvalle.material_animations;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
-import android.databinding.DataBindingUtil;
 import android.os.Bundle;
-import android.support.annotation.ColorRes;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.widget.Toolbar;
 import android.transition.Fade;
 import android.transition.Transition;
 import android.transition.TransitionInflater;
@@ -21,6 +17,11 @@ import android.view.animation.AnimationUtils;
 import android.view.animation.Interpolator;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+
+import androidx.annotation.ColorRes;
+import androidx.appcompat.widget.Toolbar;
+import androidx.core.content.ContextCompat;
+import androidx.databinding.DataBindingUtil;
 
 import com.lgvalle.material_animations.databinding.ActivityRevealBinding;
 

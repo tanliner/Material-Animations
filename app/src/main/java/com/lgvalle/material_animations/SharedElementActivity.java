@@ -1,10 +1,11 @@
 package com.lgvalle.material_animations;
 
-import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.transition.ChangeBounds;
 import android.transition.Slide;
 import android.view.Gravity;
+
+import androidx.databinding.DataBindingUtil;
 
 import com.lgvalle.material_animations.databinding.ActivitySharedelementBinding;
 

@@ -1,11 +1,12 @@
 package com.lgvalle.material_animations;
 
-import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.transition.Explode;
 import android.transition.Transition;
 import android.transition.TransitionInflater;
 import android.view.View;
+
+import androidx.databinding.DataBindingUtil;
 
 import com.lgvalle.material_animations.databinding.ActivityTransition2Binding;
 
